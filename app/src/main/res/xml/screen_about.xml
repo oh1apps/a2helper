@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".About">
+
+    <PreferenceCategory
+        android:layout="@layout/preference_header"
+        android:title="@string/about_screen_oh1">
+
+        <Preference
+            app:allowDividerBelow="false"
+            android:layout="@layout/preference_title"
+            android:title="@string/about_screen_other_apps"
+            android:key="others">
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_about_versioninfo"
+        android:layout="@layout/preference_header"
+        android:title="@string/app_name">
+
+        <Preference
+            android:layout="@layout/preference_title"
+            android:key="pref_about_version">
+
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

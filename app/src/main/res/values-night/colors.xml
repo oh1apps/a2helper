@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/mo_accent2_800</color>
+    <color name="colorAccent">@color/mo_accent3_400</color>
+
+    <color name="text_headers">@color/mo_accent3_300</color>
+    <color name="prefernce_title">@color/mo_neutral1_400</color>
+    <color name="card_headers">@color/mo_neutral2_300</color>
+    <color name="card_stroke">@color/mo_neutral2_600</color>
+    <color name="card_icon">@color/mo_neutral2_300</color>
+    <color name="preference_ripple">@color/mo_accent2_800</color>
+    <color name="card_background">@color/mo_neutral2_800</color>
+    <color name="dialog_text">@color/mo_accent2_400</color>
+    <color name="dialog_edittext_background">@color/mo_neutral1_700</color>
+    <color name="popup_menu_background">@color/mo_accent2_500</color>
+    <color name="splash_bg">@color/mo_accent2_900</color>
+    <color name="shortcut_bg">@color/mo_accent2_100</color>
+
+    <color name="slider_tooltip_bg">@color/mo_accent3_600</color>
+    <color name="slider_tooltip_text">@color/mo_accent3_100</color>
+
+    <color name="icons_tint">@color/white</color>
+
+    <color name="launcher_icon_background">@color/md_grey_900</color>
+    <color name="launcher_icon">@color/md_grey_300</color>
+    <color name="launcher_icon_dots">@color/md_pink_A400</color>
+
+</resources>

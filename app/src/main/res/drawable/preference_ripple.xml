@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/preference_ripple"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/mask"
+        android:drawable="@drawable/prefernce_ripple_bg" />
+</ripple>

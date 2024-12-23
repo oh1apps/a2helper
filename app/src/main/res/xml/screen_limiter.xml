@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:allowDividerBelow="false"
+        android:layout="@layout/preference_title"
+        android:title="@string/limiter_screen_status"
+        android:key="data_limiter_status"/>
+
+    <PreferenceCategory
+        android:title="@string/limiter_screen_manage"
+        android:layout="@layout/preference_header">
+
+    <Preference
+        android:layout="@layout/preference_title"
+        android:title="@string/limiter_screen_disable"
+        android:key="limiter_off"/>
+
+    <Preference
+        android:layout="@layout/preference_title"
+        android:title="@string/limiter_screen_enable"
+        android:key="limiter_on"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

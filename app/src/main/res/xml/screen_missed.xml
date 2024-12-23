@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        android:layout="@layout/preference_title"
+        android:title="@string/main_screen_missed_activate"
+        android:key="missed_enable"/>
+
+    <Preference
+        app:allowDividerBelow="false"
+        android:layout="@layout/preference_title"
+        android:title="@string/main_screen_missed_deactivate"
+        android:key="missed_disable"/>
+
+</PreferenceScreen>

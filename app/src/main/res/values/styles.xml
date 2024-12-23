@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MaterialAlertDialog.App.Title.Text" parent="MaterialAlertDialog.Material3.Title.Text">
+        <item name="fontFamily">@font/google_sans_bold</item>
+        <item name="android:textColor">@color/dialog_text</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="TextAppearance.App.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/google_sans_bold</item>
+        <item name="android:textColor">@color/dialog_text</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="fontFamily">@font/google_sans_bold</item>
+    </style>
+
+    <style name="actionOverflow">
+        <item name="android:src">@drawable/baseline_more_vert_24</item>
+        <item name="android:paddingEnd">24dp</item>
+    </style>
+
+    <style name="labelStyle" parent="Widget.Material3.Tooltip">
+        <item name="backgroundTint">@color/slider_tooltip_bg</item>
+        <item name="android:textColor">@color/slider_tooltip_text</item>
+
+    </style>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="about_screen_oh1">OH1 Apps</string>
+    <string name="about_screen_other_apps">Inne projekty</string>
+
+    <string name="app_name">Pomocnik a2mobile</string>
+
+    <string name="internet">Internet</string>
+
+    <string name="checkbox_messages">Wiadomości</string>
+    <string name="checkbox_talks">Rozmowy</string>
+
+    <string name="data_limiter">Data limiter</string>
+
+    <string name="dialog_confirm_message_disable_packets_renewal">Automatyczne odnawianie pakietów co 31 dni zostanie wyłączone. Po zakończeniu bieżącego okresu musisz ręcznie aktywować pakiety, jeśli chcesz dalej z nich korzystać.</string>
+    <string name="dialog_confirm_message_limiter_off">Po wyłączeniu data limitera dane w roamingu będą przesyłane bez ograniczeń. Pamiętaj - może to drogo kosztować!</string>
+    <string name="dialog_confirm_message_limiter_on">Data limiter zostanie włączony, a przesył danych w roamingu ograniczony po przekroczeniu określonego progu - oszczędzasz pieniądze!</string>
+    <string name="dialog_confirm_message_limiter_reset">Z konta zniknie Ci 5zł, ale za to możesz ponownie korzystać z internetu z pełną prędkością!</string>
+
+    <string name="dialog_confirm_pos_button">OK</string>
+    <string name="dialog_confirm_title">Uwaga!</string>
+    <string name="dialog_neg_button">ANULUJ</string>
+
+    <string name="doladuj_a2">Doł. kodem a2</string>
+    <string name="doladuj_online">Doładuj online</string>
+    <string name="doladuj_plus">Doł. kodem Plusa</string>
+
+    <string name="limiter_screen_disable">Wyłącz limiter</string>
+    <string name="limiter_screen_enable">Włącz limiter</string>
+    <string name="limiter_screen_manage">Zarządzaj</string>
+    <string name="limiter_screen_status">Stan data limitera</string>
+
+    <string name="check_status">Sprawdź stan</string>
+    <string name="disable_renewal">Wyłącz cykliczność</string>
+
+    <string name="menu_a2">a2mobile.pl</string>
+    <string name="menu_about">O aplikacji</string>
+    <string name="menu_my_a2">moje.a2mobile</string>
+
+    <string name="notification_channel_answer_descr">Powiadomienie z wiadomością zwrotną na wysłany kod USSD</string>
+    <string name="notification_channel_answer_name">Odpowiedź sieci</string>
+    <string name="notification_channel_request_descr">Powiadomienie o wysłanym kodzie USSD</string>
+    <string name="notification_channel_request_name">Zapytanie do sieci</string>
+
+    <string name="offer_np">Niewyczerpalne Pakiety</string>
+    <string name="offer_screen_activate_packets">Aktywuj pakiety</string>
+    <string name="offer_screen_funnel_reset">Resetuj lejek</string>
+    <string name="offer_screen_funnel_status">Sprawdź status lejka</string>
+
+    <string name="onboarding_button_text_a2">Przyznaj uprawnienia</string>
+    <string name="onboarding_text_no_a2">…nie jesteś w sieci a2mobile - w takim wypadku Pomocnik do niczego ci się nie przyda :(</string>
+    <string name="onboarding_text_permission_expl">Na początek musimy sprawdzic czy jesteś we właściwiej sieci.\n\nPotrzebne do tego są uprawnienia, które przydadzą się również później do komunikacji z operatorem za pomocą kodów USSD.\n\nAby informować cię o odpowiedziach z sieci Pomocnik musi móc wyświetlać powiadomienia.</string>
+    <string name="onboarding_title_no_a2">A niech to…</string>
+
+    <string name="packets_dialog_pos_button">AKTYWUJ!</string>
+
+    <string name="recharge_dialog_neg_button">ANULUJ</string>
+    <string name="recharge_dialog_pos_button">DOŁADUJ!</string>
+    <string name="recharge_dialog_title">Doładuj konto</string>
+
+    <string name="shortcut_balance">Stan konta</string>
+    <string name="shortcut_recharge_a2">Kod a2</string>
+    <string name="shortcut_recharge_a2_long">Doł. kodem a2</string>
+    <string name="shortcut_recharge_plus">Kod Plus</string>
+    <string name="shortcut_recharge_plus_long">Doł. kodem Plusa</string>
+    <string name="shortcut_recharge_web">Doł. on-line</string>
+    <string name="shortcut_recharge_web_long">Doładuj on-line</string>
+
+    <string name="stan_konta">Stan konta</string>
+
+    <string name="toast_ussd_request_error">Wystąpił błąd, spróbuj ponownie</string>
+
+    <string name="url_a2_doladowania">https://doladowania.a2mobile.pl/</string>
+    <string name="url_a2mobile">https://a2mobile.pl/</string>
+    <string name="url_moje_a2">https://moje.a2mobile.pl/login?next=%2F</string>
+    <string name="url_oh1_github">https://github.com/oh1apps?tab=repositories</string>
+    <string name="url_recharge_online">https://doladowania.a2mobile.pl/</string>
+
+    <string name="ussd_response_await">Czekam na odpowiedź sieci…</string>
+
+    <string name="version">Wersja aplikacji %1$s</string>
+    <string name="menu_bok">BOK</string>
+    <string name="bok_dial_number">tel:720203040</string>
+    <string name="url_bok_fb">https://facebook.com/a2mobilepl</string>
+    <string name="url_mailto_bok">mailto:bok@a2mobile.pl</string>
+    <string name="dialog_np_data_title">Internet do tego?</string>
+    <string name="dialog_np_title">Aktywuj sobie</string>
+    <string name="np_checkout_title">A to wszystko za</string>
+    <string name="np_checkout_title_extra_data">Całkowity koszt</string>
+
+    <string name="extra_gb">Dodatkowe gigabajty</string>
+    <string name="dialog_extra_data_packets_title">Ile dodatkowych GB?</string>
+    <string name="main_screen_missed_title">Nieodebrane połączenia</string>
+    <string name="main_screen_missed_activate">Włącz powiadamianie SMS</string>
+    <string name="main_screen_missed_deactivate">Wyłącz powiadomienia</string>
+    <string name="onboarding_title_permission">Zaczynamy!</string>
+    <string name="sim_dialog_title">Której karty SIM użyć?</string>
+    <string name="data_throttle">Ograniczenia transferu</string>
+    <string name="funnel">Lejek</string>
+    <string name="addons">Dodatki</string>
+    <string name="check_my_number">Sprawdź swój numer</string>
+    <string name="smuteczek">Smuteczek</string>
+    <string name="data_value">%d GB</string>
+    <string name="packet_not_available">Pakiet niedostępny</string>
+    <string name="packet_change_config">Wybierz inne opcje</string>
+</resources>

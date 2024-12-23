@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="16dp">
+
+    <com.google.android.material.slider.Slider
+        app:labelStyle="@style/labelStyle"
+        android:id="@+id/data_slider"
+        app:labelBehavior="visible"
+        android:stepSize="1"
+        android:valueFrom="0.0"
+        android:valueTo="2.0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp"/>
+
+    <TextView
+        android:id="@+id/checkout_title"
+        android:fontFamily="@font/google_sans_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dialog_text"
+        android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
+        android:paddingStart="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="@string/np_checkout_title_extra_data"/>
+
+    <TextView
+        android:fontFamily="@font/google_sans_bold"
+        android:textColor="@color/dialog_text"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:id="@+id/checkout"
+        android:text="@string/packet_change_config"/>
+
+</LinearLayout>

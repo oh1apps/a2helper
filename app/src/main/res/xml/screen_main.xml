@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:layout="@layout/preference_header"
+        android:title="@string/offer_np">
+
+        <Preference
+            android:layout="@layout/preference_title"
+            android:title="@string/check_status"
+            android:key="check_services"/>
+
+        <Preference
+            android:layout="@layout/preference_title"
+            android:title="@string/offer_screen_activate_packets"
+            android:key="activate_np_packets"/>
+
+        <Preference
+            app:allowDividerBelow="false"
+            android:layout="@layout/preference_title"
+            android:title="@string/disable_renewal"
+            android:key="disable_renewal"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/preference_header"
+        android:title="@string/internet">
+
+        <Preference
+            app:allowDividerBelow="false"
+            android:layout="@layout/preference_title"
+            android:title="@string/data_throttle"
+            android:key="data_throttle"/>
+
+        <Preference
+            app:allowDividerBelow="false"
+            android:layout="@layout/preference_title"
+            android:title="@string/extra_gb"
+            android:key="data_packets"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/preference_header"
+        android:title="@string/addons">
+
+        <Preference
+            android:layout="@layout/preference_title"
+            android:title="@string/main_screen_missed_title"
+            android:key="missed_calls"/>
+
+        <Preference
+            android:layout="@layout/preference_title"
+            android:title="@string/check_my_number"
+            android:key="own_number"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
