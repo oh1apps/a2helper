@@ -1,3 +1,7 @@
+# Pomocnik a2mobile
+
+Aplikacja pomaga zarządzać kontem a2mobile - wspiera doładowania, aktywacje pakietów, sprawdzanie stanu itp. funkcje obsługiwane za pomocą komend SMS
+
 ## PL
 
 Witaj w repozytorium, gdzie nie znajdziesz idealnych rozwiązań, perfekcyjnego formatowania czy najlepszych praktyk.
