@@ -2,6 +2,8 @@
 
 Aplikacja pomaga zarządzać kontem a2mobile - wspiera doładowania, aktywacje pakietów, sprawdzanie stanu itp. funkcje obsługiwane za pomocą komend SMS.
 
+Pomocnik działa na Androidzie od wersji 12 wzwyż.
+
 | ![](https://github.com/oh1apps/a2helper/blob/master/screens/Screenshot_20241228_154301.png) | ![](https://github.com/oh1apps/a2helper/blob/master/screens/Screenshot_20241228_154507.png) | ![](https://github.com/oh1apps/a2helper/blob/master/screens/Screenshot_20241228_154529.png)  | ![](https://github.com/oh1apps/a2helper/blob/master/screens/Screenshot_20241228_154541.png)  |
 |-----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | ![](https://github.com/oh1apps/a2helper/blob/master/screens/Screenshot_20241228_154559.png) | ![](https://github.com/oh1apps/a2helper/blob/master/screens/Screenshot_20241228_154623.png) | ![](https://github.com/oh1apps/a2helper/blob/master/screens/Screenshot_20241228_154636.png)  | ![](https://github.com/oh1apps/a2helper/blob/master/screens/Screenshot_20241228_154658.png)  |
