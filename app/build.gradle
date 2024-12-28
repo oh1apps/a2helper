@@ -1,14 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
 
+    buildFeatures {
+        buildConfig = true
     }
-
-    compileSdkVersion 34
-    compileSdkPreview "UpsideDownCake"
-    buildToolsVersion '34.0.0'
-    flavorDimensions "dim"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -16,12 +12,12 @@ android {
     }
 
     defaultConfig {
+        compileSdk 34
         applicationId "com.oh1.a2helper"
         minSdkVersion 31
         targetSdkVersion 34
         versionCode 10
         versionName "1.8"
-        signingConfig signingConfigs.config
     }
     buildTypes {
         release {
